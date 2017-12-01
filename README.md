@@ -6,13 +6,13 @@ This is a Scotch Box vagrant setup for the HUBzero Content Management System. Th
 The passwords are weak, information may be included in the database, file permissions are not properly set, etc. etc. etc. Why? Because let the sysadmins worry about it while you write your code.
 Please checkout [the official HUBzero Website](https://hubzero.org/download) for more secure options. 
 
-If you have issues, [please create an issue on GitHub](https://github.com/kevinwojo/hubzero-vagrant/issues).
+If you have issues, [please create an issue on GitHub](https://github.com/hubzero/hubzero-vagrant/issues).
 
 The original scotch-box documentation can be found here: [https://github.com/scotch-io/scotch-box/blob/master/README.md](https://github.com/scotch-io/scotch-box/blob/master/README.md). There are some useful things like MailCatcher which can help development.
 
 ## Installation and Setup
 Using a Terminal application:
- - Run `git clone https://github.com/hubzero/hubzero-vagrant`
+ - Run `git clone https://github.com/qubeshub/hubzero-vagrant`
  - Within the newly created hubzero-vagrant directory, run `vagrant up`.
 
 ## Notes
