@@ -9,8 +9,6 @@ service apache2 restart
 cd /var/www/public
 git clone https://github.com/qubeshub/hubzero-cms.git --depth 1 -b master .
 git remote add upstream https://github.com/hubzero/hubzero-cms
-rm -rf app
-cp -r /var/www/app-scotch app
 cd /var/www/public/core
 php bin/composer install
 cd /var/www/public
