@@ -7,10 +7,7 @@ cp /var/www/default-ssl.conf /etc/apache2/sites-enabled/.
 a2enmod ssl
 service apache2 restart
 cd /var/www/public
-git clone https://github.com/qubeshub/hubzero-cms.git --depth 1 --recursive -b master .
-cd app/templates/qubes/super
-git checkout sidebar
-cd /var/www/public
+git clone https://github.com/qubeshub/hubzero-cms.git --depth 1 --recurse-submodules -b master .
 git remote add upstream https://github.com/hubzero/hubzero-cms
 rm -rf app/config
 cp -r /var/www/app-scotch/config app/config
