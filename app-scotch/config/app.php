@@ -1,6 +1,6 @@
 <?php
 return array(
-	'application_env' => 'production',
+	'application_env' => 'development',
 	'editor' => 'none',
 	'list_limit' => '20',
 	'helpurl' => 'http://www.hubzero.org',
