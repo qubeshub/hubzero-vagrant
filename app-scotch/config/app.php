@@ -1,7 +1,7 @@
 <?php
 return array(
 	'application_env' => 'development',
-	'editor' => 'none',
+	'editor' => 'ckeditor',
 	'list_limit' => '20',
 	'helpurl' => 'http://www.hubzero.org',
 	'debug' => '1',
