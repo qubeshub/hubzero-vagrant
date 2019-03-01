@@ -15,7 +15,7 @@ cd /var/www/public/core
 php bin/composer install
 cd /var/www/public
 php muse migration --file=Migration20180126160144ComSearch.php -f
-php muse migration -i -f
+php muse migration -f
 
 chown vagrant:vagrant /srv
 apt-get -y update
